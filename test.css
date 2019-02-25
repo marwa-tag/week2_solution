@@ -1,1 +1,115 @@
-p{color:red;}
+
+
+h2{
+	text-align: center;
+}
+#x{
+	padding: 20px;
+	margin: 20px;
+	width: 200px;
+	height: 200px;
+	font-size: 20px;
+	border: 2px solid black;
+	background-color: gray
+	
+
+}
+#x1{
+	padding: 20px;
+	margin: 20px;
+	width: 200px;
+	height: 200px;
+	font-size: 20px;
+	border: 2px solid black;
+	background-color: gray;
+	
+
+}
+#x2{
+	padding: 20px;
+	margin: 20px;
+	width: 200px;
+	height: 200px;
+	font-size: 20px;
+	border: 2px solid black;
+	background-color: gray;
+	
+
+}
+
+
+h4{
+	position: relative;
+	bottom: 20px;
+	left: 170px;
+	width: 73px;
+	padding: auto;
+	margin: auto;
+	border: 1px solid black;
+}
+#x h4{background-color: pink;}
+#x1 h4{background-color: red;}
+#x2 h4{background-color: yellow;}
+
+
+/* for desktop */
+
+@media (min-width: 992px)
+{
+   #x{
+   	   width: 25%;
+   	   float: left;
+
+   }
+
+   #x1{
+   	   width: 25%;
+   	   float: left;
+   }
+
+   #x2{
+   	   width: 25%;
+float: left; 
+  }
+
+}
+
+
+/* for table*/
+
+@media (min-width: 698px and max-width:991px )
+{
+	#x{
+   	   width: 300px;
+   	   float: left;
+   }
+
+   #x1{
+   	   width: 300px;
+   	   float: left;
+   }
+
+   #x2{
+   	   width: 600px;
+float: left;   }
+
+}
+
+/* for mobile*/
+@media ( max-width:767px )
+{
+	#x{
+   	   width: 50%;
+   	   float: left;
+   }
+
+   #x1{
+   	   width: 50%;
+   	   float: left;
+   }
+
+   #x2{
+   	   width: 50%;
+float: left;   }
+
+}
